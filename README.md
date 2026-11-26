@@ -25,4 +25,8 @@ flowchart TB
     MGT -->|"2. Read / Write State"| S3
     MGT -->|"3. Manage OUs, Accounts & SCPs"| ROOT
     SCP -.->|"Enforces Guardrails Across"| SEC_OU
+<<<<<<< HEAD
     SCP -.->|"Enforces Guardrails Across"| WL_OU
+=======
+    SCP -.->|"Enforces Guardrails Across"| WL_OU
+>>>>>>> 2f3196246e33c5e3e9e755741b297ba3ad965101
