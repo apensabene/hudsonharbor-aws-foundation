@@ -1,0 +1,32 @@
+# Local .terraform directories (provider binaries/cache)
+**/.terraform/*
+
+# Local state files & backups (state lives remotely in S3)
+*.tfstate
+*.tfstate.*
+
+# Crash logs & override files
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI configuration & sensitive local variable files
+.terraformrc
+terraform.rc
+*.tfvars
+*.tfvars.json
+!*.example.tfvars
+
+# Saved plan files (can contain sensitive values)
+*.tfplan
+
+# Windows / OS / IDE artifacts
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
